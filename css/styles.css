@@ -1,13 +1,27 @@
 body {
 	color: #fff;
 
+
 	font-family: 'Roboto', sans-serif;
-	font-feature-settings: "c2sc", "smcp";
 
 	background: #000;
 	margin: 0;
 	height: 100vh;
 	position:fixed;
+}
+
+
+@supports not (font-feature-settings: "c2sc", "smcp";) {
+	body {
+		text-transform: uppercase;
+	}
+}
+
+@supports (font-feature-settings: "c2sc", "smcp";) {
+	body {
+		font-feature-settings: "c2sc", "smcp";
+		font-variant: small-caps;
+	}
 }
 
 
@@ -44,7 +58,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 9.5vw;
 line-height: 28px;
-font-variant: small-caps;
 
 margin-top: 7vh;
 
@@ -70,7 +83,6 @@ color: rgba(255, 255, 255, 0.9);
 	font-weight: normal;
 	font-size: 7.5vw;
 	line-height: 19px;
-	font-variant: small-caps;
 	word-wrap: break-word;
 	
 	color: rgba(255, 255, 255, 0.9);
@@ -91,7 +103,6 @@ font-style: normal;
 font-weight: 300;
 font-size: 5vw;
 line-height: 5.94vw;
-font-variant: small-caps;
 color: rgba(255, 255, 255, 0.8);
 
 	margin-top: 4vh;
@@ -145,9 +156,8 @@ color: rgba(255, 255, 255, 0.8);
 
 	margin-left: 46.43px; /*19+7.27=26.43*/
 	/*margin-bottom: -100%;*/
+	text-transform: lowercase;
 	
-	font-variant: small-caps;
-
 	/*margin-top: -10px;*/
 	color: #fff;
 	
