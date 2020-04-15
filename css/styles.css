@@ -1,20 +1,13 @@
-
-
-
-
-
 body {
 	color: #fff;
+
 	font-family: 'Roboto', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 30px;
-	/*background-color: ;*/
+	font-feature-settings: "c2sc", "smcp";
+
 	background: #000;
 	margin: 0;
 	height: 100vh;
 	position:fixed;
-	font-feature-settings: 'smcp';
 }
 
 
@@ -104,7 +97,6 @@ color: rgba(255, 255, 255, 0.8);
 	margin-top: 4vh;
 
 	/*font-feature-settings: 'pnum' on, 'lnum' on;*/
-	/*font-feature-settings: "c2sc", "smcp"; */
 
 
 }
