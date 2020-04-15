@@ -39,8 +39,8 @@ body {
 	top: 40vh;
 	background-color: #000;
 	height: 60vh;
-	/*padding-left: 12.5vw; */
-	width: 100vw;
+	padding-left: 12.5vw; 
+	width: 87.5vw;
 
 }
 
@@ -52,7 +52,7 @@ font-size: 9.5vw;
 line-height: 28px;
 
 margin-top: 7vh;
-
+/*margin-left: 12.5vw;*/
 
 color: rgba(255, 255, 255, 0.9);
 }
@@ -75,6 +75,8 @@ color: rgba(255, 255, 255, 0.9);
 	font-size: 7.5vw;
 	line-height: 19px;
 	word-wrap: break-word;
+
+	/*margin-left: 12.5vw;*/
 	
 	color: rgba(255, 255, 255, 0.9);
 }
@@ -98,6 +100,10 @@ color: rgba(255, 255, 255, 0.8);
 
 	margin-top: 5.7vh;
 
+}
+
+.contacts {
+	/*margin-left: 12.5vw;*/
 }
 
 .telegram__button {
