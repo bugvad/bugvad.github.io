@@ -5,8 +5,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 
 	background: #000;
-	margin: 0;
-	height: 100vh;
+	
+	margin: 0; height: 100%; overflow: hidden
 }
 
 
@@ -39,7 +39,7 @@ body {
 	top: 40vh;
 	background-color: #000;
 	height: 60vh;
-	padding-left: 12.5vw; 
+	/*padding-left: 12.5vw; */
 	width: 100vw;
 
 }
@@ -105,7 +105,7 @@ color: rgba(255, 255, 255, 0.8);
 	box-sizing: border-box;
 	opacity: 0.5;
 	position: absolute;
-	bottom: 5vh;
+	/*bottom: 5vh;*/
 
 
 }
