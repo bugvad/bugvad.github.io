@@ -15,6 +15,10 @@ body {
 	body {
 		text-transform: uppercase;
 	}
+	.vl2 {
+	font-variant: normal;
+	text-transform: lowercase;
+	}
 }
 
 @supports (font-feature-settings: "c2sc", "smcp";) {
@@ -156,7 +160,6 @@ color: rgba(255, 255, 255, 0.8);
 
 	margin-left: 46.43px; /*19+7.27=26.43*/
 	/*margin-bottom: -100%;*/
-	text-transform: lowercase;
 	
 	/*margin-top: -10px;*/
 	color: #fff;
