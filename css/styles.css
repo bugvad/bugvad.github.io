@@ -45,16 +45,14 @@ body {
 }
 
 .info__name {
-	font-family: Roboto;
+font-family: Pragmatica Extended;
+font-style: normal;
 font-weight: bold;
-font-weight: 500;
 font-size: 9.5vw;
 line-height: 28px;
-/* identical to box height */
-	margin-top: 7vh;
 
+margin-top: 7vh;
 
-font-variant: small-caps;
 
 color: rgba(255, 255, 255, 0.9);
 }
