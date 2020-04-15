@@ -34,16 +34,12 @@ body {
     height: 11vw;
 }
 
-.card {
-
-}
-
 .info {
 	position: absolute;
 	top: 40vh;
 	background-color: #000;
-	height: 60%;
-	width: 100vw;
+	height: 60vh;
+	/*width: 100vw;*/
 	padding-left: 12.5vw; 
 
 }
