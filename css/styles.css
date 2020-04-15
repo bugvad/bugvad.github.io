@@ -45,12 +45,12 @@ body {
 }
 
 .info__name {
-font-family: pragmatica-extended, sans-serif;
+	font-family: Roboto;
 font-style: normal;
-font-weight: 700;
-
+font-weight: 500;
 font-size: 9.5vw;
 line-height: 28px;
+font-variant: small-caps;
 
 margin-top: 7vh;
 
