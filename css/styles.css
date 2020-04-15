@@ -45,9 +45,10 @@ body {
 }
 
 .info__name {
-font-family: Pragmatica Extended;
+font-family: pragmatica-extended, sans-serif;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
+
 font-size: 9.5vw;
 line-height: 28px;
 
