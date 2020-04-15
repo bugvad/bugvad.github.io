@@ -7,7 +7,6 @@ body {
 	background: #000;
 	margin: 0;
 	height: 100vh;
-	/*position:fixed;*/
 }
 
 
@@ -31,28 +30,21 @@ body {
 
 
 .logo__image {
-	/*background: #FFFFFF;*/
-	/*background: rgba(255, 255, 255, 0.5);*/
-	width: 36.07px;
-    height: 36.07px;
-    /*stroke: transparent;*/
-    /*stroke-width: 0px;*/
+	width: 11vw;
+    height: 11vw;
 }
 
 .card {
-	/*height: 40%; */
 
 }
 
 .info {
-	/*margin-top: 40%;*/
 	position: absolute;
 	top: 40vh;
 	background-color: #000;
-	width: 100%;
 	height: 60%;
-	padding-left: 13vh; 
-	/*border: solid;*/
+	width: 100vw;
+	padding-left: 12.5vw; 
 
 }
 
@@ -75,12 +67,11 @@ color: rgba(255, 255, 255, 0.9);
 }
 
 .photo {
-	height: 40%;
 	width: 100%;
 }
 
 .info__position {
-	margin-top: 3.5vh;
+	margin-top: 8.9vh; /*6.4 + 2.5*/
 
 	font-family: Roboto;
 	font-style: normal;
@@ -109,10 +100,7 @@ font-size: 5vw;
 line-height: 5.94vw;
 color: rgba(255, 255, 255, 0.8);
 
-	margin-top: 4vh;
-
-	/*font-feature-settings: 'pnum' on, 'lnum' on;*/
-
+	margin-top: 5.7vh;
 
 }
 
@@ -121,7 +109,8 @@ color: rgba(255, 255, 255, 0.8);
 	box-sizing: border-box;
 	opacity: 0.5;
 	position: absolute;
-	bottom: 3vh;
+	bottom: 5vh;
+
 
 }
 
@@ -137,34 +126,19 @@ color: rgba(255, 255, 255, 0.8);
 
 .vl {
 	float: left;
-
-	margin-top: -16.84px;
-
 }
 
 .vl2 {
-	/*width: 243.407084‬px; 296.99 - 0.661458 - 52.26 = 243,407084‬*/
-	/*height: 44px;*/
-	/*border: solid;*/
-	/*float: right;*/
-
-	/*text-align: center;*/
-	/*vertical-align: middle;*/
-
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 7.81vw;
 	line-height: 3px;
-	/* identical to box height */
+	float: right;
+	margin-left: 5vw;
+	margin-top: 50px;
 
-	margin-left: 46.43px; /*19+7.27=26.43*/
-	/*margin-bottom: -100%;*/
-	
-	/*margin-top: -10px;*/
 	color: #fff;
-	
-	/*color: rgba(255, 255, 255, 0.5);*/
 }
 
 
