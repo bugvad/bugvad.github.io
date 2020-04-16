@@ -85,7 +85,7 @@ color: rgba(255, 255, 255, 0.9);
 }
 
 .info__position {
-	margin-top: calc(var(--vh, 1vh) * 8.9); /*6.4 + 2.5*/
+	margin-top: calc(var(--vh, 1vh) * 6.5); /*6.4 + 2.5*/
 
 	font-family: Roboto;
 	font-style: normal;
