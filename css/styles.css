@@ -163,3 +163,176 @@ color: rgba(255, 255, 255, 0.8);
 
 }
 
+@media (min-width: 501px) {
+
+body {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	background: #000;
+	/*background-color: ;*/
+	margin: 0;
+	/*font-variant: small-caps;*/
+}
+
+@supports (font-feature-settings: "smcp") {
+	body {
+		font-feature-settings: "c2sc", "smcp";
+		font-variant: normal;
+
+	}
+}
+
+@supports not (font-feature-settings: "smcp") {
+	body {
+		text-transform: uppercase;
+	}
+	.vl2 {
+	font-variant: normal;
+	text-transform: lowercase;
+	}
+}
+
+#non__copiable {
+	      -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.logo__image {
+	/*background: #FFFFFF;*/
+	/*background: rgba(255, 255, 255, 0.5);*/
+	width: 19.16px;
+    height: 19.16px;
+    /*stroke: transparent;*/
+    /*stroke-width: 0px;*/
+}
+
+.card {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: flex;
+
+    box-sizing: border-box;
+    /*width: 450px;*/
+    /*height: 200px;*/
+
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.info {
+	margin-left: 27.75px;
+}
+
+.info__name {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 23.7885px;
+line-height: 28px;
+/* identical to box height */
+	margin-top: -5px;
+
+
+
+color: rgba(255, 255, 255, 0.9);
+}
+
+.content__logo {
+
+}
+
+.photo {
+	width: 143.39px;
+	height: 143.39px;
+	object-fit: cover;
+}
+
+.info__position {
+	margin-top: 11.23px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.859px;
+	line-height: 19px;
+	
+	color: rgba(255, 255, 255, 0.9);
+}
+
+a {
+	text-decoration: none;
+
+}
+
+
+.contacts__address {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 13.2159px;
+line-height: 15px;
+color: rgba(255, 255, 255, 0.8);
+
+	margin-top: 14px;
+
+}
+
+.telegram__button {
+	margin-top: 26px;
+	box-sizing: border-box;
+	opacity: 0.5;
+
+}
+
+.telegram__button:hover {
+	/*color: #fff;*/
+	opacity: 1;
+
+	/*background: #fff;*/
+
+
+}
+
+.vl {
+	float: left;
+
+	margin-top: -16.84px;
+
+}
+
+.vl2 {
+	/*width: 243.407084‬px; 296.99 - 0.661458 - 52.26 = 243,407084‬*/
+	/*height: 44px;*/
+	/*border: solid;*/
+	/*float: right;*/
+
+	/*text-align: center;*/
+	/*vertical-align: middle;*/
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13.2159px;
+	line-height: 3px;
+	/* identical to box height */
+
+	margin-left: 26.43px; /*19+7.27=26.43*/
+	
+	/*margin-top: -10px;*/
+	color: #fff;
+	
+	/*color: rgba(255, 255, 255, 0.5);*/
+}
+
+}
