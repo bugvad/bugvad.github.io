@@ -64,7 +64,7 @@ font-weight: 500;
 font-size: 9.5vw;
 line-height: 28px;
 
-margin-top: 7vh;
+margin-top: calc(var(--vh, 1vh) * 7);
 /*margin-left: 12.5vw;*/
 
 color: rgba(255, 255, 255, 0.9);
@@ -80,7 +80,7 @@ color: rgba(255, 255, 255, 0.9);
 }
 
 .info__position {
-	margin-top: 8.9vh; /*6.4 + 2.5*/
+	margin-top: calc(var(--vh, 1vh) * 8.9); /*6.4 + 2.5*/
 
 	font-family: Roboto;
 	font-style: normal;
@@ -111,7 +111,7 @@ font-size: 5vw;
 line-height: 5.94vw;
 color: rgba(255, 255, 255, 0.8);
 
-	margin-top: 5.7vh;
+	margin-top: calc(var(--vh, 1vh) * 5.7);
 
 }
 
@@ -124,7 +124,7 @@ color: rgba(255, 255, 255, 0.8);
 	box-sizing: border-box;
 	opacity: 0.5;
 	position: absolute;
-	bottom: 5vh;
+	bottom: calc(var(--vh, 1vh) * 5);
 
 
 }
@@ -151,7 +151,7 @@ color: rgba(255, 255, 255, 0.8);
 	line-height: 3px;
 	float: right;
 	margin-left: 5vw;
-	margin-top: 50px;
+	margin-top: calc(var(--vh, 1vh) * 3);
 
 	color: #fff;
 }
